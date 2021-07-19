@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #10437A;
+    width: 1166px;
+    height: 450px;
+    margin: auto;
+}
+.nevigation a{
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+}
+.nevigation{
+    display: flex;
+    width: 587px;
+    height: 24px;
+    justify-content: space-around;
+    font-weight: 700;
+}
+.log-in{
+    display: flex;
+    justify-content: space-around;   
+    margin-left: 900px;
+}
+.fa-sign-in-alt, .video,.fa-long-arrow-alt-right{
+    color: white;
+    margin-left: ;
+
+}
+.banner-image{
+    width: 438px;
+    height: 153px;
+    margin-top: 75px;
+}
+.page-title{
+    width: 250px;
+    color: white;
+    margin-top: 100px;
+}
+.banner-image img{
+    width: 75%;
+    margin-left: 250px;
+}
+.top-section{
+    display: flex;
+}
+.watch-video{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 340px;
+}
+/* header finish */
+/* Main body part starts */
+main{
+    align-items: center;
+    background: #FFFFFF;   
+}
+
+.top-players{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #f5f5f0;  
+}
+
+.player{
+    width: 330px;
+    height: 474px;
+    padding: 30px;
+    margin: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+}
+p{
+    color: gray;
+}
+.player img,.lower-image img{
+    width: 300px;
+    height: 256px;  
+}
+.lower-part{
+    display: flex;
+    justify-content: center;
+    
+}
+.highlight{
+    width: 250px;  
+}
+.lower-heading{
+    display: flex;
+}
+.lower-image img{
+    margin-left: 250px;
+}
+.footer-image{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.footer-image img{
+    width: 30%;
+}
+.social-sites{
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.social-sites img{
+    width: 25%;
+}
